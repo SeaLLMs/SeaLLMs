@@ -99,12 +99,8 @@ We use GPT-4 as an evaluator to rate the comparison between our models versus Ch
 Compared with [PolyLM-13b-chat](https://arxiv.org/pdf/2307.06018.pdf), a recent multilingual model, our model significantly outperforms across all languages and categories.
 
 <div class="row" style="display: flex; clear: both;">
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_polylm_by_lang.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_polylm_by_cat_sea.png" alt="Forest" style="width:100%">
-  </div>
+    <img src="seallm_vs_polylm_by_lang.png" alt="Snow" style="float: left; width: 48%">
+    <img src="seallm_vs_polylm_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
 
 Compared with Llama-2-13b-chat, our SeaLLM-13b performs significantly better in all SEA languages, 
@@ -113,12 +109,8 @@ In english, our model is 46% as good as Llama-2-13b-chat, even though it did not
 
 
 <div class="row" style="display: flex; clear: both;">
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_llama2_by_lang.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_llama2_by_cat_sea.png" alt="Forest" style="width:100%">
-  </div>
+  <img src="seallm_vs_llama2_by_lang.png" alt="Snow" style="float: left; width: 48%">
+  <img src="seallm_vs_llama2_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
 
 Compared with ChatGPT-3.5, our SeaLLM-13b model is performing 45% as good as ChatGPT for Thai. 
@@ -126,13 +118,10 @@ For important aspects such as Safety and Task-Solving, our model nearly on par w
 
 
 <div class="row" style="display: flex; clear: both;">
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_chatgpt_by_lang.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column" style="float: left; width: 49%">
-    <img src="seallm_vs_chatgpt_by_cat_sea.png" alt="Forest" style="width:100%">
-  </div>
+  <img src="seallm_vs_chatgpt_by_lang.png" alt="Snow" style="float: left; width: 48%">
+  <img src="seallm_vs_chatgpt_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
+
 
 ### M3Exam - World Knowledge in Regional Languages
 
