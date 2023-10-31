@@ -127,8 +127,8 @@ Compared with [PolyLM-13b-chat](https://arxiv.org/pdf/2307.06018.pdf), a recent 
 
 
 <div class="row" style="display: flex; clear: both;">
-    <img src="seallm_vs_polylm_by_lang.png" alt="Snow" style="float: left; width: 49.5%">
-    <img src="seallm_vs_polylm_by_cat_sea.png" alt="Forest" style="float: left; width: 49.5%">
+    <img src="seallm_vs_polylm_by_lang.png" alt="Snow" style="float: left; width: 48%">
+    <img src="seallm_vs_polylm_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
 
 Compared with Llama-2-13b-chat, our SeaLLM-13b performs significantly better in all SEA languages, 
@@ -138,8 +138,8 @@ In English, our model is 46% as good as Llama-2-13b-chat, even though it did not
 
 
 <div class="row" style="display: flex; clear: both;">
-  <img src="seallm_vs_llama2_by_lang.png" alt="Snow" style="float: left; width: 49.5%">
-  <img src="seallm_vs_llama2_by_cat_sea.png" alt="Forest" style="float: left; width: 49.5%">
+  <img src="seallm_vs_llama2_by_lang.png" alt="Snow" style="float: left; width: 48%">
+  <img src="seallm_vs_llama2_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
 
 Compared with ChatGPT-3.5, our SeaLLM-13b model is performing 45% as good as ChatGPT for Thai. 
@@ -150,8 +150,8 @@ Meanwhile, most of the safety-related questions and expected responses in this t
 whereas we leave those with conflicting and controversial opinions, as well as more comprehensive human evaluation for future update.
 
 <div class="row" style="display: flex; clear: both;">
-  <img src="seallm_vs_chatgpt_by_lang.png" alt="Snow" style="float: left; width: 49.5%">
-  <img src="seallm_vs_chatgpt_by_cat_sea.png" alt="Forest" style="float: left; width: 49.5%">
+  <img src="seallm_vs_chatgpt_by_lang.png" alt="Snow" style="float: left; width: 48%">
+  <img src="seallm_vs_chatgpt_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
 
 ### M3Exam - World Knowledge in Regional Languages
