@@ -144,15 +144,25 @@ In English, our model is 46% as good as Llama-2-13b-chat, even though it did not
 
 Compared with ChatGPT-3.5, our SeaLLM-13b model is performing 45% as good as ChatGPT for Thai. 
 For important aspects such as Safety and Task-Solving, our model is nearly on par with ChatGPT across the languages. 
-Note that **GPT-4**, as built for global use, may not consider certain safety-related responses from ChatGPT as harmful or sensitive in the local context.
-Using GPT-4 to evaluate ChatGPT-3.5 can also be tricky not only for safety aspects because they likely follow a similar training strategy with similar data.
-Meanwhile, most of the safety-related questions and expected responses in this test set are globally acceptable, 
-whereas we leave those with conflicting and controversial opinions, as well as more comprehensive human evaluation for future update.
+Note that using **GPT-4** to evaluate ChatGPT-3.5 can also be tricky not only for safety aspects because they likely follow a similar training strategy with similar data.
 
 <div class="row" style="display: flex; clear: both;">
   <img src="seallm_vs_chatgpt_by_lang.png" alt="Snow" style="float: left; width: 48%">
   <img src="seallm_vs_chatgpt_by_cat_sea.png" alt="Forest" style="float: left; width: 48%">
 </div>
+
+As **GPT-4**, which was built for global use, may not consider certain safety-related responses as harmful or sensitive in the local context, 
+while certain sensitive topics may entail conflicting and controversial opinions across cultures.
+We engage native linguists to rate and compare SeaLLM's and ChatGPT responses to a natural and local-aware safety test set.
+The linguists choose a winner or a tie in a totally randomized and double-blind manner, which means both we and the linguists do not know the responses' origins.
+
+As shown in human evaluation below, SeaLLM is tie with ChatGPT in most cases, while outperforming ChatGPT for Vi and Th.
+
+| Safety Human Eval | Id | Th | Vi | Avg
+|-----------| ------- | ------- |  ------- | ------- 
+| SeaLLM-13b Win | 12.09% | 23.40% | 8.42% | 14.64%
+| Tie            | 65.93% | 67.02% | 89.47% | 74.29%
+| ChatGPT Win    | 21.98% | 9.57% | 2.11% | 11.07%
 
 ### M3Exam - World Knowledge in Regional Languages
 
